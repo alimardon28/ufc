@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <title>UFC</title>
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="h1 text-primary fw-bold text-center mb-3 main_heading   ">UFC</h1>
+    <form class="form sm-6 mb-3">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label fs-3 fw-bold text-success mb-2">Birinchi ishtirokchini kiriting?</label>
+          <input type="text" class="form-control form_input fw-bold " name="user_name" required  placeholder="Username?">
+          <div id="emailHelp" class="form-text fw-bold text-success fs-3 ">Ikkinchi ishtirokchini kiriting?</div>
+        </div>
+        <div class="mb-3">
+            <select class="form-select form-select-lg mb-3 form_select text-danger fw-bold" name="user_fighter" required aria-label=".form-select-lg example">
+                <option selected>Raqibingizni tanlang?</option>
+                <option value="khabib">Khabib!</option>
+                <option value="conor">Conor!</option>
+                <option value="john_jones">John Jones!</option>
+                <option value="mayk_tyson">Mayk Tyson!</option>
+              </select>
+        </div>
+
+        <div class="form_result text-success fw-bold mb-3"></div>
+
+        <button type="submit" class="btn w-50 btn-danger">Fight!</button>
+      </form>
+</div>
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
