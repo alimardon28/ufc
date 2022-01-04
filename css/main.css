@@ -7,6 +7,7 @@
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
     padding: 20px;
     background-color: rgb(5, 5, 78);
+    margin: 20px !important;
 }
 
 .h1 {
